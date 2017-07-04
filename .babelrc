@@ -1,0 +1,5 @@
+// It seems like the preset es2016 does not work with uglifyjs.... very unfortunate.
+{
+  "presets" : ["es2015", "react"],
+  "plugins" : ["transform-decorators-legacy", "transform-object-rest-spread"]
+}
