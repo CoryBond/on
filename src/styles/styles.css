@@ -33,17 +33,16 @@ html {
 }
 
 .portfolio-logo {
-  background: url(../resources/images/logo.png) 300% no-repeat;
-  background-size: cover;
-  height: 350px;
-  width: 350px;
+  background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+  height: 150px;
+  width: 450px;
   margin: auto auto 10px;
 }
 
 .is-compact .portfolio-logo {
   height: 150px;
-  width: 150px;
-  margin-top: 7px;
+  width: 450px;
+  margin-top: 35px;
 }
 
 .portfolio-navigation-row {

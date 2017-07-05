@@ -13960,11 +13960,7 @@ var Layout = function (_React$Component) {
                             'span',
                             { className: 'mdl-layout__title' },
                             _react2.default.createElement('div', { className: 'portfolio-logo' }),
-                            _react2.default.createElement(
-                                'span',
-                                { className: 'mdl-layout__title' },
-                                'Cory Bond'
-                            )
+                            _react2.default.createElement('span', { className: 'mdl-layout__title' })
                         )
                     ),
                     _react2.default.createElement(

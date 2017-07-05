@@ -21,7 +21,7 @@ export default class Layout extends React.Component {
                 <div className="mdl-layout__header-row portfolio-logo-row">
                     <span className="mdl-layout__title">
                         <div className="portfolio-logo"></div>
-                        <span className="mdl-layout__title">Cory Bond</span>
+                        <span className="mdl-layout__title"></span>
                     </span>
                 </div>
                 <div className="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
