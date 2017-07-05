@@ -1,3 +1,7 @@
+const primary = "#E0E0E0";
+const secondary = "#212121";
+const third = "#757575";
+
 export const experienceParticle = {
   particles: {
     number: {
@@ -8,13 +12,13 @@ export const experienceParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#f00000"
+        color: secondary
       },
       polygon: {
         nb_sides: 5
@@ -43,7 +47,7 @@ export const experienceParticle = {
     line_linked: {
       enable: true,
       distance: 300,
-      color: "#ffffff",
+      color: third,
       opacity: 0.4,
       width: 2
     },
@@ -114,7 +118,7 @@ export const projectsParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     image: {
         src: "img/github.svg",
@@ -125,7 +129,7 @@ export const projectsParticle = {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 5
@@ -159,7 +163,7 @@ export const projectsParticle = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: third,
       opacity: 0.4,
       width: 1
     },
@@ -230,13 +234,13 @@ export const resumeParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -270,7 +274,7 @@ export const resumeParticle = {
     line_linked: {
       enable: false,
       distance: 94.69771699587272,
-      color: "#780e0e",
+      color: third,
       opacity: 0.4,
       width: 1
     },
@@ -341,13 +345,13 @@ export const aboutParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -380,13 +384,13 @@ export const aboutParticle = {
     },
     line_linked: {
       enable: true,
-      color: "#FFFFFF",
+      color: third,
       opacity: 1,
       width: 1
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,
@@ -451,13 +455,13 @@ export const contactParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -491,7 +495,7 @@ export const contactParticle = {
     line_linked: {
       enable: false,
       distance: 94.69771699587272,
-      color: "#780e0e",
+      color: third,
       opacity: 0.4,
       width: 1
     },

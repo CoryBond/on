@@ -2676,6 +2676,10 @@ exports.Particles = Particles;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+var primary = "#E0E0E0";
+var secondary = "#212121";
+var third = "#757575";
+
 var experienceParticle = exports.experienceParticle = {
   particles: {
     number: {
@@ -2686,13 +2690,13 @@ var experienceParticle = exports.experienceParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#f00000"
+        color: secondary
       },
       polygon: {
         nb_sides: 5
@@ -2721,7 +2725,7 @@ var experienceParticle = exports.experienceParticle = {
     line_linked: {
       enable: true,
       distance: 300,
-      color: "#ffffff",
+      color: third,
       opacity: 0.4,
       width: 2
     },
@@ -2792,7 +2796,7 @@ var projectsParticle = exports.projectsParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     image: {
       src: "img/github.svg",
@@ -2803,7 +2807,7 @@ var projectsParticle = exports.projectsParticle = {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 5
@@ -2837,7 +2841,7 @@ var projectsParticle = exports.projectsParticle = {
     line_linked: {
       enable: true,
       distance: 150,
-      color: "#ffffff",
+      color: third,
       opacity: 0.4,
       width: 1
     },
@@ -2908,13 +2912,13 @@ var resumeParticle = exports.resumeParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -2948,7 +2952,7 @@ var resumeParticle = exports.resumeParticle = {
     line_linked: {
       enable: false,
       distance: 94.69771699587272,
-      color: "#780e0e",
+      color: third,
       opacity: 0.4,
       width: 1
     },
@@ -3019,13 +3023,13 @@ var aboutParticle = exports.aboutParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -3058,13 +3062,13 @@ var aboutParticle = exports.aboutParticle = {
     },
     line_linked: {
       enable: true,
-      color: "#FFFFFF",
+      color: third,
       opacity: 1,
       width: 1
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: "none",
       random: false,
       straight: false,
@@ -3129,13 +3133,13 @@ var contactParticle = exports.contactParticle = {
       }
     },
     color: {
-      value: "#ffffff"
+      value: secondary
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#000000"
+        color: secondary
       },
       polygon: {
         nb_sides: 3
@@ -3169,7 +3173,7 @@ var contactParticle = exports.contactParticle = {
     line_linked: {
       enable: false,
       distance: 94.69771699587272,
-      color: "#780e0e",
+      color: third,
       opacity: 0.4,
       width: 1
     },
@@ -3243,15 +3247,12 @@ Object.defineProperty(exports, "__esModule", {
 exports.ParticleBackground_Contact = exports.ParticleBackground_Resume = exports.ParticleBackground_Projects = exports.ParticleBackground_Experiences = exports.ParticleBackground_About = exports.ParticleBackground = exports.ParticleStyle = exports.ResumeFrame = exports.HeadBoardLink = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n'], ['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n'], ['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n'], ['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n    width: 100%;\n    height: 1150px;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n'], ['\n    width: 100%;\n    height: 1150px;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n    min-height: 100% !important;\n'], ['\n    min-height: 100% !important;\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n'], ['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n']),
-    _templateObject6 = _taggedTemplateLiteral(['\n    background-color: rgb(0, 51, 102);\n'], ['\n    background-color: rgb(0, 51, 102);\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n    background-color: rgb(1, 24, 47);\n'], ['\n    background-color: rgb(1, 24, 47);\n']),
-    _templateObject8 = _taggedTemplateLiteral(['\n    background-color: rgb(0, 0, 0);\n'], ['\n    background-color: rgb(0, 0, 0);\n']),
-    _templateObject9 = _taggedTemplateLiteral(['\n    background-color: rgb(35,39,44);\n'], ['\n    background-color: rgb(35,39,44);\n']),
-    _templateObject10 = _taggedTemplateLiteral(['\n    background-color: rgb(41, 36, 29);\n'], ['\n    background-color: rgb(41, 36, 29);\n']);
+    _templateObject6 = _taggedTemplateLiteral(['\n    background-color: #F5F5F5;\n'], ['\n    background-color: #F5F5F5;\n']),
+    _templateObject7 = _taggedTemplateLiteral(['\n    background-color: #212121;\n'], ['\n    background-color: #212121;\n']);
 
 var _reactRouterDom = __webpack_require__(61);
 
@@ -3280,13 +3281,13 @@ var ParticleBackground = exports.ParticleBackground = _styledComponents2.default
 
 var ParticleBackground_About = exports.ParticleBackground_About = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
 
-var ParticleBackground_Experiences = exports.ParticleBackground_Experiences = (0, _styledComponents2.default)(ParticleBackground)(_templateObject7);
+var ParticleBackground_Experiences = exports.ParticleBackground_Experiences = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
 
-var ParticleBackground_Projects = exports.ParticleBackground_Projects = (0, _styledComponents2.default)(ParticleBackground)(_templateObject8);
+var ParticleBackground_Projects = exports.ParticleBackground_Projects = (0, _styledComponents2.default)(ParticleBackground)(_templateObject7);
 
-var ParticleBackground_Resume = exports.ParticleBackground_Resume = (0, _styledComponents2.default)(ParticleBackground)(_templateObject9);
+var ParticleBackground_Resume = exports.ParticleBackground_Resume = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
 
-var ParticleBackground_Contact = exports.ParticleBackground_Contact = (0, _styledComponents2.default)(ParticleBackground)(_templateObject10);
+var ParticleBackground_Contact = exports.ParticleBackground_Contact = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
 
 /***/ }),
 /* 25 */

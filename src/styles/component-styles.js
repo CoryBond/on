@@ -21,6 +21,7 @@ export const HeadBoardLink = styled(Link)`
         position: relative;
         font-weight: bold;
         font-size: 120%;
+        color: #FAFAFA;
         &::after {
             -webkit-transition: all 0.5s;
             transition: all 0.5s;
@@ -35,6 +36,7 @@ export const HeadBoardLink = styled(Link)`
             left: 15%;
         }
     }
+    color: #EEEEEE !important;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -60,21 +62,21 @@ export const ParticleBackground = styled.div`
 `
 
 export const ParticleBackground_About = styled(ParticleBackground)`
-    background-color: rgb(0, 51, 102);
+    background-color: #F5F5F5;
 `;
 
 export const ParticleBackground_Experiences = styled(ParticleBackground)`
-    background-color: rgb(1, 24, 47);
+    background-color: #F5F5F5;
 `;
 
 export const ParticleBackground_Projects = styled(ParticleBackground)`
-    background-color: rgb(0, 0, 0);
+    background-color: #212121;
 `;
 
 export const ParticleBackground_Resume = styled(ParticleBackground)`
-    background-color: rgb(35,39,44);
+    background-color: #F5F5F5;
 `;
 
 export const ParticleBackground_Contact = styled(ParticleBackground)`
-    background-color: rgb(41, 36, 29);
+    background-color: #F5F5F5;
 `;
