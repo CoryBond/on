@@ -57,5 +57,5 @@ export default class Layout extends React.Component {
   console.log('callback - particles.js config loaded');
 });*/
 
-                        /*<li><a href="#"></a></li>
-                        <li><a href="#">Privacy & Terms</a></li>*/
+                        /*<li><a href="#"></a>
+                        <li><a href="#">Privacy & Terms</a>*/

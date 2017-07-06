@@ -44,12 +44,19 @@ html {
 
 .phone-screen-text {
   font-size: 5px;
+  padding : 0 !important; 
+  margin: 0 !important; 
+  width: 100% !important; 
 }
 
 @media screen and (min-width: 300px) {
   .phone-screen-text {
     font-size: 10px;
+    padding: 0 !important; 
+    margin: 0 !important; 
+    width: 100% !important; 
   }
+
 }
 
 @media screen and (min-width: 470px) {
@@ -65,6 +72,9 @@ html {
 
   .phone-screen-text {
     font-size: inherit;
+    padding: 0 !important; 
+    margin: 0 !important; 
+    width: 100% !important; 
   }
 }
 

@@ -3244,7 +3244,7 @@ var contactParticle = exports.contactParticle = {
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-exports.ParticleBackground_Contact = exports.ParticleBackground_Resume = exports.ParticleBackground_Projects = exports.ParticleBackground_Experiences = exports.ParticleBackground_About = exports.ParticleBackground = exports.ParticleStyle = exports.ResumeFrame = exports.HeadBoardLink = undefined;
+exports.ShrinkingImage = exports.ParticleBackground_Contact = exports.ParticleBackground_Resume = exports.ParticleBackground_Projects = exports.ParticleBackground_Experiences = exports.ParticleBackground_About = exports.ParticleBackground = exports.ParticleStyle = exports.ResumeFrame = exports.HeadBoardLink = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n'], ['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n']),
     _templateObject2 = _taggedTemplateLiteral(['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n'], ['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n']),
@@ -3252,7 +3252,8 @@ var _templateObject = _taggedTemplateLiteral(['\n\t0% {\n        color: transpar
     _templateObject4 = _taggedTemplateLiteral(['\n    min-height: 100% !important;\n'], ['\n    min-height: 100% !important;\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n'], ['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n']),
     _templateObject6 = _taggedTemplateLiteral(['\n    background-color: #F5F5F5;\n'], ['\n    background-color: #F5F5F5;\n']),
-    _templateObject7 = _taggedTemplateLiteral(['\n    background-color: #212121;\n'], ['\n    background-color: #212121;\n']);
+    _templateObject7 = _taggedTemplateLiteral(['\n    background-color: #212121;\n'], ['\n    background-color: #212121;\n']),
+    _templateObject8 = _taggedTemplateLiteral(['\n    max-width: 100%;\n    height: auto;\n    width: auto9;\n'], ['\n    max-width: 100%;\n    height: auto;\n    width: auto\\9;\n']);
 
 var _reactRouterDom = __webpack_require__(61);
 
@@ -3288,6 +3289,8 @@ var ParticleBackground_Projects = exports.ParticleBackground_Projects = (0, _sty
 var ParticleBackground_Resume = exports.ParticleBackground_Resume = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
 
 var ParticleBackground_Contact = exports.ParticleBackground_Contact = (0, _styledComponents2.default)(ParticleBackground)(_templateObject6);
+
+var ShrinkingImage = exports.ShrinkingImage = _styledComponents2.default.img(_templateObject8);
 
 /***/ }),
 /* 25 */
@@ -13547,60 +13550,68 @@ var ContactsPage = function (_React$Component) {
                             ),
                             _react2.default.createElement('br', null),
                             _react2.default.createElement(
-                                'p',
-                                null,
-                                'cb.cobond@gmail.com',
-                                _react2.default.createElement('br', null),
-                                '1-(845)-490-3907'
+                                'span',
+                                { 'class': 'mdl-chip mdl-chip--contact' },
+                                _react2.default.createElement('span', { 'class': 'mdl-chip__contact mdl-color--teal mdl-color-text--white' }),
+                                _react2.default.createElement(
+                                    'span',
+                                    { 'class': 'mdl-chip__text' },
+                                    'cb.cobond@gmail.com ',
+                                    _react2.default.createElement('br', null),
+                                    '1-(845)-490-3907'
+                                )
                             ),
-                            '_____________________________________________________________________________________________________________________',
                             _react2.default.createElement('br', null),
                             _react2.default.createElement('br', null),
                             _react2.default.createElement(
-                                'form',
-                                { action: '#', className: '' },
+                                'div',
+                                { className: 'mdl-card__actions mdl-card--border' },
                                 _react2.default.createElement(
-                                    'div',
-                                    { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                                    _react2.default.createElement('input', { className: 'mdl-textfield__input', pattern: '[A-Z,a-z, ]*', type: 'text', id: 'Name' }),
+                                    'form',
+                                    { action: '#', className: '' },
                                     _react2.default.createElement(
-                                        'label',
-                                        { className: 'mdl-textfield__label', htmlFor: 'Name' },
-                                        'Name...'
+                                        'div',
+                                        { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
+                                        _react2.default.createElement('input', { className: 'mdl-textfield__input', pattern: '[A-Z,a-z, ]*', type: 'text', id: 'Name' }),
+                                        _react2.default.createElement(
+                                            'label',
+                                            { className: 'mdl-textfield__label', htmlFor: 'Name' },
+                                            'Name...'
+                                        ),
+                                        _react2.default.createElement(
+                                            'span',
+                                            { className: 'mdl-textfield__error' },
+                                            'Letters and spaces only'
+                                        )
                                     ),
                                     _react2.default.createElement(
-                                        'span',
-                                        { className: 'mdl-textfield__error' },
-                                        'Letters and spaces only'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                                    _react2.default.createElement('input', { className: 'mdl-textfield__input', type: 'text', id: 'Email' }),
+                                        'div',
+                                        { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
+                                        _react2.default.createElement('input', { className: 'mdl-textfield__input', type: 'text', id: 'Email' }),
+                                        _react2.default.createElement(
+                                            'label',
+                                            { className: 'mdl-textfield__label', htmlFor: 'Email' },
+                                            'Email...'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        'label',
-                                        { className: 'mdl-textfield__label', htmlFor: 'Email' },
-                                        'Email...'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'div',
-                                    { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
-                                    _react2.default.createElement('textarea', { className: 'mdl-textfield__input', type: 'text', rows: '5', id: 'note' }),
+                                        'div',
+                                        { className: 'mdl-textfield mdl-js-textfield mdl-textfield--floating-label' },
+                                        _react2.default.createElement('textarea', { className: 'mdl-textfield__input', type: 'text', rows: '5', id: 'note' }),
+                                        _react2.default.createElement(
+                                            'label',
+                                            { className: 'mdl-textfield__label', htmlFor: 'note' },
+                                            'Enter note'
+                                        )
+                                    ),
                                     _react2.default.createElement(
-                                        'label',
-                                        { className: 'mdl-textfield__label', htmlFor: 'note' },
-                                        'Enter note'
-                                    )
-                                ),
-                                _react2.default.createElement(
-                                    'p',
-                                    null,
-                                    _react2.default.createElement(
-                                        'button',
-                                        { className: 'mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent', type: 'submit' },
-                                        'Submit'
+                                        'p',
+                                        null,
+                                        _react2.default.createElement(
+                                            'button',
+                                            { className: 'mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent', type: 'submit' },
+                                            'Submit'
+                                        )
                                     )
                                 )
                             )
@@ -13821,6 +13832,15 @@ var ExperiencePage = function (_React$Component) {
                                 'Junit'
                             ),
                             '.'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__actions mdl-card--border' },
+                            _react2.default.createElement(
+                                'a',
+                                { className: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent', href: 'https://www.citivelocity.com/' },
+                                'Velocity Website'
+                            )
                         )
                     ),
                     _react2.default.createElement(
@@ -14027,8 +14047,8 @@ exports.default = Layout;
   console.log('callback - particles.js config loaded');
 });*/
 
-/*<li><a href="#"></a></li>
-<li><a href="#">Privacy & Terms</a></li>*/
+/*<li><a href="#"></a>
+<li><a href="#">Privacy & Terms</a>*/
 
 /***/ }),
 /* 107 */

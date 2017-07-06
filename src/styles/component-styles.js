@@ -76,3 +76,10 @@ export const ParticleBackground_Resume = styled(ParticleBackground)`
 export const ParticleBackground_Contact = styled(ParticleBackground)`
     background-color: #F5F5F5;
 `;
+
+
+export const ShrinkingImage = styled.img`
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+`;

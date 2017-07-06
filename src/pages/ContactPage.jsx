@@ -37,33 +37,40 @@ export default class ContactsPage extends React.Component {
                             If you wish to contact me another manner, or if your message is a bit long, then you can contact me with these links:
                         </p>
                         <br/>
-                        <p>
-                            cb.cobond@gmail.com<br/>
-                            1-(845)-490-3907
-                        </p>
-                        _____________________________________________________________________________________________________________________
+                        <span class="mdl-chip mdl-chip--contact">
+                            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">
+                                
+                            </span>
+                            <span class="mdl-chip__text">
+                                cb.cobond@gmail.com <br/>
+                                1-(845)-490-3907
+                            </span>
+                        </span>
+                        
                         <br/>
                         <br/>
-                        <form action="#" className="">
-                            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input className="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name"/>
-                                <label className="mdl-textfield__label" htmlFor="Name">Name...</label>
-                                <span className="mdl-textfield__error">Letters and spaces only</span>
-                            </div>
-                            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <input className="mdl-textfield__input" type="text" id="Email"/>
-                                <label className="mdl-textfield__label" htmlFor="Email">Email...</label>
-                            </div>
-                            <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                <textarea className="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
-                                <label className="mdl-textfield__label" htmlFor="note">Enter note</label>
-                            </div>
-                            <p>
-                                <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
-                                    Submit
-                                </button>
-                            </p>
-                        </form>
+                        <div className="mdl-card__actions mdl-card--border">
+                            <form action="#" className="">
+                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input className="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name"/>
+                                    <label className="mdl-textfield__label" htmlFor="Name">Name...</label>
+                                    <span className="mdl-textfield__error">Letters and spaces only</span>
+                                </div>
+                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <input className="mdl-textfield__input" type="text" id="Email"/>
+                                    <label className="mdl-textfield__label" htmlFor="Email">Email...</label>
+                                </div>
+                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                                    <textarea className="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
+                                    <label className="mdl-textfield__label" htmlFor="note">Enter note</label>
+                                </div>
+                                <p>
+                                    <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                        Submit
+                                    </button>
+                                </p>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

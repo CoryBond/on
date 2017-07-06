@@ -51,6 +51,9 @@ export default class ExperiencePage extends React.Component {
                         Designed and built several projects for the team that improved debugging and reporting of software bugs, networking and latency issues. 
                         <br/>Utilized software tools <strong>Java</strong>, <strong>ElasticSearch</strong>, <strong>iText</strong>, <strong>Spring</strong>, <strong>Camel</strong>, <strong>Maven</strong> and <strong>Junit</strong>.
                     </div>
+                    <div className="mdl-card__actions mdl-card--border">
+                        <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://www.citivelocity.com/">Velocity Website</a>
+                    </div>
                 </div>
                 <div className="mdl-cell mdl-card mdl-shadow--4dp experience-card">
                     <div className="mdl-card__media">
