@@ -34,19 +34,27 @@ export default class ContactsPage extends React.Component {
                         <br/>
                         <p>
                             To quickly shoot me a message you may provide provide your name, a contact email, and your message below. This will be sent to my email directly.
-                            If you wish to contact me another manner, or if your message is a bit long, then you can contact me with these links:
+                            If you wish to contact me another manner, or if your message is a bit long, then you can contact via:
                         </p>
                         <br/>
-                        <span class="mdl-chip mdl-chip--contact">
-                            <span class="mdl-chip__contact mdl-color--teal mdl-color-text--white">
-                                
+                        <div style={{textAlign:"center"}}>
+                            <span className="mdl-chip mdl-chip--contact">
+                                <span className="mdl-chip__contact mdl-color--black mdl-color-text--white">
+                                    EM
+                                </span>
+                                <span className="mdl-chip__text">
+                                    cb.cobond@gmail.com 
+                                </span>
                             </span>
-                            <span class="mdl-chip__text">
-                                cb.cobond@gmail.com <br/>
-                                1-(845)-490-3907
+                            <span className="mdl-chip mdl-chip--contact">
+                                <span className="mdl-chip__contact mdl-color--black mdl-color-text--white">
+                                    PH
+                                </span>
+                                <span className="mdl-chip__text">
+                                    1-(845)-490-3907
+                                </span>
                             </span>
-                        </span>
-                        
+                        </div>
                         <br/>
                         <br/>
                         <div className="mdl-card__actions mdl-card--border">

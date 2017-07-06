@@ -13546,19 +13546,39 @@ var ContactsPage = function (_React$Component) {
                             _react2.default.createElement(
                                 'p',
                                 null,
-                                'To quickly shoot me a message you may provide provide your name, a contact email, and your message below. This will be sent to my email directly. If you wish to contact me another manner, or if your message is a bit long, then you can contact me with these links:'
+                                'To quickly shoot me a message you may provide provide your name, a contact email, and your message below. This will be sent to my email directly. If you wish to contact me another manner, or if your message is a bit long, then you can contact via:'
                             ),
                             _react2.default.createElement('br', null),
                             _react2.default.createElement(
-                                'span',
-                                { 'class': 'mdl-chip mdl-chip--contact' },
-                                _react2.default.createElement('span', { 'class': 'mdl-chip__contact mdl-color--teal mdl-color-text--white' }),
+                                'div',
+                                { style: { textAlign: "center" } },
                                 _react2.default.createElement(
                                     'span',
-                                    { 'class': 'mdl-chip__text' },
-                                    'cb.cobond@gmail.com ',
-                                    _react2.default.createElement('br', null),
-                                    '1-(845)-490-3907'
+                                    { className: 'mdl-chip mdl-chip--contact' },
+                                    _react2.default.createElement(
+                                        'span',
+                                        { className: 'mdl-chip__contact mdl-color--black mdl-color-text--white' },
+                                        'EM'
+                                    ),
+                                    _react2.default.createElement(
+                                        'span',
+                                        { className: 'mdl-chip__text' },
+                                        'cb.cobond@gmail.com'
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'span',
+                                    { className: 'mdl-chip mdl-chip--contact' },
+                                    _react2.default.createElement(
+                                        'span',
+                                        { className: 'mdl-chip__contact mdl-color--black mdl-color-text--white' },
+                                        'PH'
+                                    ),
+                                    _react2.default.createElement(
+                                        'span',
+                                        { className: 'mdl-chip__text' },
+                                        '1-(845)-490-3907'
+                                    )
                                 )
                             ),
                             _react2.default.createElement('br', null),
