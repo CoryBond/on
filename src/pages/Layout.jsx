@@ -24,13 +24,13 @@ export default class Layout extends React.Component {
                         <span className="mdl-layout__title"></span>
                     </span>
                 </div>
-                <div className="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <div className="mdl-layout__header-row portfolio-navigation-row mdl-layout--fixed-drawer">
                     <nav className="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                        <s.HeadBoardLink className="mdl-navigation__link" to="/About">About</s.HeadBoardLink>
-                        <s.HeadBoardLink className="mdl-navigation__link" to="/Experience">Experience</s.HeadBoardLink>
-                        <s.HeadBoardLink className="mdl-navigation__link" to="/Projects">Projects</s.HeadBoardLink>
-                        <s.HeadBoardLink className="mdl-navigation__link" to="/Resume">Resume</s.HeadBoardLink>
-                        <s.HeadBoardLink className="mdl-navigation__link" to="/Contact">Contact</s.HeadBoardLink>
+                        <s.HeadBoardLink className="mdl-navigation__link phone-screen-text" to="/About">About</s.HeadBoardLink>
+                        <s.HeadBoardLink className="mdl-navigation__link phone-screen-text" to="/Experience">Experience</s.HeadBoardLink>
+                        <s.HeadBoardLink className="mdl-navigation__link phone-screen-text" to="/Projects">Projects</s.HeadBoardLink>
+                        <s.HeadBoardLink className="mdl-navigation__link phone-screen-text" to="/Resume">Resume</s.HeadBoardLink>
+                        <s.HeadBoardLink className="mdl-navigation__link phone-screen-text" to="/Contact">Contact</s.HeadBoardLink>
                     </nav>
                 </div>
             </header>

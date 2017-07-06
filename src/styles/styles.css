@@ -32,17 +32,84 @@ html {
   min-height: auto;
 }
 
+.phone-screen-hide {
+  visibility: hidden;
+  display: none;
+}
+
+.phone-screen-show {
+  visibility: visible;
+  display: inline-flex;
+}
+
+.phone-screen-text {
+  font-size: 5px;
+}
+
+@media screen and (min-width: 300px) {
+  .phone-screen-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 470px) {
+  .phone-screen-hide {
+    visibility: visible;
+    display: inline-flex;
+  }
+
+  .phone-screen-show {
+    visibility: hidden;
+    display: none;
+  }
+
+  .phone-screen-text {
+    font-size: inherit;
+  }
+}
+
 .portfolio-logo {
   background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
   height: 150px;
-  width: 450px;
-  margin: auto auto 10px;
+  width: 150px;
+  background-size: 100% 50px;
 }
 
 .is-compact .portfolio-logo {
   height: 150px;
-  width: 450px;
-  margin-top: 35px;
+  width: 150px;
+  margin-top: 30px;
+  background-size: 100% 50px;
+}
+
+@media screen and (min-width: 300px) {
+  .portfolio-logo {
+    background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+    height: 150px;
+    width: 250px;
+    background-size: 100% 50%;
+  }
+
+  .is-compact .portfolio-logo {
+    height: 150px;
+    width: 250px;
+    margin-top: 30px;
+    background-size: 100% 50%;
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .portfolio-logo {
+    background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+    height: 150px;
+    width: 450px;
+  }
+
+  .is-compact .portfolio-logo {
+    height: 150px;
+    width: 450px;
+    margin-top: 30px;
+  }
 }
 
 .portfolio-navigation-row {

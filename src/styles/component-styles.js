@@ -37,10 +37,6 @@ export const HeadBoardLink = styled(Link)`
         }
     }
     color: #EEEEEE !important;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    line-height: 42px;
 `;
 
 export const ResumeFrame = styled.iframe`
