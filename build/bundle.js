@@ -3247,7 +3247,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.ParticleBackground_Contact = exports.ParticleBackground_Resume = exports.ParticleBackground_Projects = exports.ParticleBackground_Experiences = exports.ParticleBackground_About = exports.ParticleBackground = exports.ParticleStyle = exports.ResumeFrame = exports.HeadBoardLink = undefined;
 
 var _templateObject = _taggedTemplateLiteral(['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n'], ['\n\t0% {\n        color: transparent;\n\t}\n\n\t100% {\n\t\t color: radboats;\n\t}\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n'], ['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    line-height: 42px;\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n'], ['\n    &:hover {\n        -webkit-transition: all 0.5s;\n        position: relative;\n        font-weight: bold;\n        font-size: 120%;\n        color: #FAFAFA;\n        &::after {\n            -webkit-transition: all 0.5s;\n            transition: all 0.5s;\n            content: \'\';\n            width: 70%;\n            height: 2px;\n            display: block;\n            position: absolute;\n            bottom: 0;\n            left: 0;\n            background-color: rgb(255,64,129);\n            left: 15%;\n        }\n    }\n    color: #EEEEEE !important;\n']),
     _templateObject3 = _taggedTemplateLiteral(['\n    width: 100%;\n    height: 1150px;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n'], ['\n    width: 100%;\n    height: 1150px;\n    -webkit-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n']),
     _templateObject4 = _taggedTemplateLiteral(['\n    min-height: 100% !important;\n'], ['\n    min-height: 100% !important;\n']),
     _templateObject5 = _taggedTemplateLiteral(['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n'], ['\n    position: absolute;\n    min-height: 100%;\n    min-width: 100%;\n']),
@@ -13965,33 +13965,33 @@ var Layout = function (_React$Component) {
                     ),
                     _react2.default.createElement(
                         'div',
-                        { className: 'mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only' },
+                        { className: 'mdl-layout__header-row portfolio-navigation-row mdl-layout--fixed-drawer' },
                         _react2.default.createElement(
                             'nav',
                             { className: 'mdl-navigation mdl-typography--body-1-force-preferred-font' },
                             _react2.default.createElement(
                                 s.HeadBoardLink,
-                                { className: 'mdl-navigation__link', to: '/About' },
+                                { className: 'mdl-navigation__link phone-screen-text', to: '/About' },
                                 'About'
                             ),
                             _react2.default.createElement(
                                 s.HeadBoardLink,
-                                { className: 'mdl-navigation__link', to: '/Experience' },
+                                { className: 'mdl-navigation__link phone-screen-text', to: '/Experience' },
                                 'Experience'
                             ),
                             _react2.default.createElement(
                                 s.HeadBoardLink,
-                                { className: 'mdl-navigation__link', to: '/Projects' },
+                                { className: 'mdl-navigation__link phone-screen-text', to: '/Projects' },
                                 'Projects'
                             ),
                             _react2.default.createElement(
                                 s.HeadBoardLink,
-                                { className: 'mdl-navigation__link', to: '/Resume' },
+                                { className: 'mdl-navigation__link phone-screen-text', to: '/Resume' },
                                 'Resume'
                             ),
                             _react2.default.createElement(
                                 s.HeadBoardLink,
-                                { className: 'mdl-navigation__link', to: '/Contact' },
+                                { className: 'mdl-navigation__link phone-screen-text', to: '/Contact' },
                                 'Contact'
                             )
                         )
