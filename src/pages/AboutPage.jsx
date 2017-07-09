@@ -68,7 +68,7 @@ export default class AboutPage extends React.Component {
                                     On my free time I like to make coding projects to learn <strong>Single Page Applications</strong>, <strong>Javascript/ES6/React</strong>, <strong>Python</strong>, <strong>Web Development</strong> and general scripting. I host and take care of my own website at my home.
                                 </p>
                                 <p>
-                                    I both live and love NYC. Currently a Brooklynite I enjoy what the city has to offer like opera, exhibits, theater, restruants, history, and more. As far as I can see I will be living around the NYC area for a long time.
+                                    I both live and love NYC. Currently a Brooklynite I enjoy what the city has to offer like opera, exhibits, theater, restaurants, history, and more. As far as I can see I will be living around the NYC area for a long time.
                                 </p>
                                 <p>
                                     I am board games hobbiest. If you never heard of <strong>Twilight Struggle</strong> then your missing out.

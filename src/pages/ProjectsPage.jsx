@@ -37,6 +37,20 @@ export default class ProjectsPage extends React.Component {
                         <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/MineSweeper-React-Redux/">Live Demo</a>
                     </div>
                 </div>
+                <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div className="mdl-card__media">
+                        <img className="article-image" src={loc.Images + "MineSweeper_Thumbnail.png"}  alt=""/>
+                    </div>
+                    <div className="mdl-card__title">
+                        <h2 className="mdl-card__title-text">GiphFind</h2>
+                    </div>
+                    <div className="mdl-card__supporting-text">
+                        A website that interacts with the Giph API for finding giphs. Allows a user to serach giphs, favorite giphs and stores them even when the user logs off.
+                    </div>
+                    <div className="mdl-card__actions mdl-card--border">
+                        <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/MineSweeper-React-Redux/">Live Demo</a>
+                    </div>
+                </div>
             </div>
         </s.ParticleBackground_Projects>
     );
