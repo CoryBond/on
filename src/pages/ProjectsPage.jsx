@@ -25,16 +25,16 @@ export default class ProjectsPage extends React.Component {
              <div className="mdl-grid portfolio-max-width">
                 <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
                     <div className="mdl-card__media">
-                        <img className="article-image" src={loc.Images + "MineSweeper_Thumbnail.png"}  alt=""/>
+                        <img className="article-image" src={loc.Images + "GiphFind.png"}  alt=""/>
                     </div>
                     <div className="mdl-card__title">
-                        <h2 className="mdl-card__title-text">MineSweeper</h2>
+                        <h2 className="mdl-card__title-text">GiphFind</h2>
                     </div>
                     <div className="mdl-card__supporting-text">
-                        A MineSweeper game made with both React and Redux. 
+                        A website that interacts with the Giph API for finding giphs. Allows a user to serach giphs, shuffle gifs, and favorite/store giphs them even when the user logs off.
                     </div>
                     <div className="mdl-card__actions mdl-card--border">
-                        <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/MineSweeper-React-Redux/">Live Demo</a>
+                        <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/GiphFind/">Live Demo</a>
                     </div>
                 </div>
                 <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
@@ -42,10 +42,10 @@ export default class ProjectsPage extends React.Component {
                         <img className="article-image" src={loc.Images + "MineSweeper_Thumbnail.png"}  alt=""/>
                     </div>
                     <div className="mdl-card__title">
-                        <h2 className="mdl-card__title-text">GiphFind</h2>
+                        <h2 className="mdl-card__title-text">MineSweeper</h2>
                     </div>
                     <div className="mdl-card__supporting-text">
-                        A website that interacts with the Giph API for finding giphs. Allows a user to serach giphs, favorite giphs and stores them even when the user logs off.
+                        A MineSweeper game made with both React and Redux. 
                     </div>
                     <div className="mdl-card__actions mdl-card--border">
                         <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/MineSweeper-React-Redux/">Live Demo</a>
