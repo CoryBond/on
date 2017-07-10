@@ -13425,7 +13425,7 @@ var AboutPage = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     null,
-                                    'I both live and love NYC. Currently a Brooklynite I enjoy what the city has to offer like opera, exhibits, theater, restruants, history, and more. As far as I can see I will be living around the NYC area for a long time.'
+                                    'I both live and love NYC. Currently a Brooklynite I enjoy what the city has to offer like opera, exhibits, theater, restaurants, history, and more. As far as I can see I will be living around the NYC area for a long time.'
                                 ),
                                 _react2.default.createElement(
                                     'p',
@@ -14140,6 +14140,38 @@ var ProjectsPage = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'mdl-grid portfolio-max-width' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'mdl-cell mdl-card mdl-shadow--4dp portfolio-card' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__media' },
+                            _react2.default.createElement('img', { className: 'article-image', src: loc.Images + "GiphFind.png", alt: '' })
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__title' },
+                            _react2.default.createElement(
+                                'h2',
+                                { className: 'mdl-card__title-text' },
+                                'GiphFind'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__supporting-text' },
+                            'A website that interacts with the Giph API for finding giphs. Allows a user to serach giphs, shuffle gifs, and favorite/store giphs them even when the user logs off.'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__actions mdl-card--border' },
+                            _react2.default.createElement(
+                                'a',
+                                { className: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent', href: 'https://corybond.github.io/GiphFind/' },
+                                'Live Demo'
+                            )
+                        )
+                    ),
                     _react2.default.createElement(
                         'div',
                         { className: 'mdl-cell mdl-card mdl-shadow--4dp portfolio-card' },
