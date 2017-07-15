@@ -14203,6 +14203,38 @@ var ProjectsPage = function (_React$Component) {
                                 'Live Demo'
                             )
                         )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'mdl-cell mdl-card mdl-shadow--4dp portfolio-card' },
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__media' },
+                            _react2.default.createElement('img', { className: 'article-image', src: loc.Images + "InfiniteScroll.png", alt: '' })
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__title' },
+                            _react2.default.createElement(
+                                'h2',
+                                { className: 'mdl-card__title-text' },
+                                'AutoComplete Infinite Scroll'
+                            )
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__supporting-text' },
+                            'A generic infinite scroll that also implements autocomplete features.'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { className: 'mdl-card__actions mdl-card--border' },
+                            _react2.default.createElement(
+                                'a',
+                                { className: 'mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent', href: 'https://corybond.github.io/AutoComplete-Infinite-Scroll/' },
+                                'Live Demo'
+                            )
+                        )
                     )
                 )
             );

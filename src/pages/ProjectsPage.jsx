@@ -51,6 +51,20 @@ export default class ProjectsPage extends React.Component {
                         <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/MineSweeper-React-Redux/">Live Demo</a>
                     </div>
                 </div>
+                <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div className="mdl-card__media">
+                        <img className="article-image" src={loc.Images + "InfiniteScroll.png"}  alt=""/>
+                    </div>
+                    <div className="mdl-card__title">
+                        <h2 className="mdl-card__title-text">AutoComplete Infinite Scroll</h2>
+                    </div>
+                    <div className="mdl-card__supporting-text">
+                        A generic infinite scroll that also implements autocomplete features.
+                    </div>
+                    <div className="mdl-card__actions mdl-card--border">
+                        <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="https://corybond.github.io/AutoComplete-Infinite-Scroll/">Live Demo</a>
+                    </div>
+                </div>
             </div>
         </s.ParticleBackground_Projects>
     );
