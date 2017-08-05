@@ -6,9 +6,102 @@ import * as loc from '../js/Locations.js';
 import * as s from '../styles/component-styles.js';
 import * as pStyle from '../particles/Particles_Params.js';
 
+import {Textfield, Button, Snackbar} from 'react-mdl';
+import Email from '../Js/smtp.js';
+
 export default class ContactsPage extends React.Component {
   constructor(props) {
     super(props);
+    
+
+    this.sendMail = this.sendMail.bind(this);
+    this.generateBody = this.generateBody.bind(this);
+    this.onChangeName = this.onChangeName.bind(this);
+    this.onChangeEmail = this.onChangeEmail.bind(this);
+    this.onChangeBody = this.onChangeBody.bind(this);
+    this.handleTimeoutSnackbar = this.handleTimeoutSnackbar.bind(this);
+    this.handleClickActionSnackbar = this.handleClickActionSnackbar.bind(this);
+    this.handleShowSnackbar = this.handleShowSnackbar.bind(this);
+    this.state = {
+      re: /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/i,
+      name: "",
+      body: "",
+      email: "",
+      isEmailValid: false,
+      isSnackbarActive: false,
+      snackBarMessage: "",
+      btnBgColor: '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16)
+    };
+  }
+
+  handleTimeoutSnackbar() {
+    this.setState({ isSnackbarActive: false });
+  }
+
+  handleClickActionSnackbar() {
+    this.setState({
+      btnBgColor: ''
+    });
+  }
+
+  handleShowSnackbar() {
+    this.setState({
+      snackBarMessage: "Message Sent To cb.cobond@gmail.com",
+      isSnackbarActive: true
+    });
+  }
+
+  sendMail(e){
+      e.preventDefault();
+      // Email was not put in.
+      if(!this.state.isEmailValid) return;
+        
+        Email.send("cb.cobond@gmail.com",
+            "cb.cobond@gmail.com",
+            "CoryBond.me - Mail",
+            this.generateBody(),
+            {token: "eaedd34c-346a-4b29-9c40-aeb3036f20a5"});
+
+        //if(confirmation){
+            this.handleShowSnackbar();
+        /*} else{
+            this.handleShowSnackbar();
+        }*/
+    }
+
+  generateBody(){
+    return "Name: " + this.state.name + "\n" +
+           "Email: " + this.state.email + "\n"+
+            "Note: " + this.state.body;
+  }
+
+  onChangeName(e) {
+    let newValue = e.target.value;
+    this.setState({
+      name: newValue
+    });
+  }
+
+  onChangeEmail(e) {
+    let newValue = e.target.value;
+    if(this.state.re.test(newValue))
+        this.setState({
+            isEmailValid: true,
+            email: newValue
+        });
+    else
+        this.setState({
+            isEmailValid: false,
+            email: newValue
+        });
+  }
+
+  onChangeBody(e) {
+    let newValue = e.target.value;
+    this.setState({
+      body: newValue
+    });
   }
 
   render() {
@@ -34,7 +127,7 @@ export default class ContactsPage extends React.Component {
                         <br/>
                         <p>
                             To quickly shoot me a message you may provide provide your name, a contact email, and your message below. This will be sent to my email directly.
-                            If you wish to contact me another manner, or if your message is a bit long, then you can contact via:
+                            If you wish to contact me in another manner, or if your message is a bit long, then you can contact via:
                         </p>
                         <br/>
                         <div style={{textAlign:"center"}}>
@@ -59,24 +152,36 @@ export default class ContactsPage extends React.Component {
                         <br/>
                         <div className="mdl-card__actions mdl-card--border">
                             <form action="#" className="">
-                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input className="mdl-textfield__input" pattern="[A-Z,a-z, ]*" type="text" id="Name"/>
-                                    <label className="mdl-textfield__label" htmlFor="Name">Name...</label>
-                                    <span className="mdl-textfield__error">Letters and spaces only</span>
-                                </div>
-                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input className="mdl-textfield__input" type="text" id="Email"/>
-                                    <label className="mdl-textfield__label" htmlFor="Email">Email...</label>
-                                </div>
-                                <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <textarea className="mdl-textfield__input" type="text" rows="5" id="note"></textarea>
-                                    <label className="mdl-textfield__label" htmlFor="note">Enter note</label>
-                                </div>
-                                <p>
-                                    <button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit">
+                                <Textfield
+                                    onChange={this.onChangeName}
+                                    pattern="[A-Z,a-z, ]*"
+                                    error="Letters and spaces only please."
+                                    label="Name..."
+                                    floatingLabel
+                                />
+                                <Textfield
+                                    onChange={this.onChangeEmail}
+                                    pattern={this.state.re.source}
+                                    error="Pleas put in a proper email.."
+                                    label="Email..."
+                                    floatingLabel
+                                />
+                                <Textfield
+                                    onChange={this.onChangeBody}
+                                    label="Enter note"
+                                    rows={3}
+                                    floatingLabel
+                                />
+
+                                    <Button className="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" type="submit" onClick={this.sendMail}>
                                         Submit
-                                    </button>
-                                </p>
+                                    </Button>
+                                    <Snackbar
+                                        active={this.state.isSnackbarActive}
+                                        onClick={this.handleTimeoutSnackbar}
+                                        onTimeout={this.handleTimeoutSnackbar}
+                                        action="Ok">{this.state.snackBarMessage}</Snackbar>
+
                             </form>
                         </div>
                     </div>
@@ -86,3 +191,4 @@ export default class ContactsPage extends React.Component {
     );
   };
 };
+

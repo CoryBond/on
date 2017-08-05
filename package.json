@@ -37,6 +37,7 @@
     "url-loader": "~0.5.8",
     "webpack": "~2.5.1",
     "webpack-dev-server": "~2.4.5",
-    "react-media": "~1.5.1"
+    "react-media": "~1.5.1",
+    "react-mdl": "~1.10.3"
   }
 }
