@@ -43,12 +43,12 @@ export default class AboutPage extends React.Component {
                             <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Background</h3>
                             <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
                                 <p>
-                                    A graduate from Binghamton University I'm a full stack engineer working for Citi for the last 3-4 years. 
-                                    The major application I have worked on throughout that time were for both the server and UI components for Citi's Velocity e-trading platform.
+                                    A graduate from Binghamton University I worked in both the back-end and front-end for Citi for the last 3-4 years. 
+                                    The major applications I have worked on throughout that time were for the server and UI components for Citi's award winning Velocity e-trading platform.
                                 </p>
                                 <p>
-                                    Currently I am helping my front end team add new features to our UI and transition our codebase to a more Javascript based stack. 
-                                    I have experience in object oriented programming, full stack development and functional programming.
+                                    Recently I started work as a software developer for ActiveViam in their professional services team. 
+                                    I actively help build products on top of our ActivePivot server to provide pratical and regulatory solutions for clients.
                                 </p>
                             </div>
                             <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Goals</h3>
@@ -56,7 +56,8 @@ export default class AboutPage extends React.Component {
                                 <p>
                                     I find the front-development world to be exciting, engaging and fun. 
                                     Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. 
-                                    The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. Continuing forward with my career I would like to develop more in this space.
+                                    The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. <br/>
+                                    Continuing forward with my career I would like to develop more in this space as full stack engineer.
                                 </p>
                                 <p>
                                     I have found that even after graduating from college I learned a lot of technical and business related skills in the last 3 years of my past positions and feel as though I will continue this trend way out into my career.

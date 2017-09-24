@@ -14637,12 +14637,12 @@ var AboutPage = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     null,
-                                    'A graduate from Binghamton University I\'m a full stack engineer working for Citi for the last 3-4 years. The major application I have worked on throughout that time were for both the server and UI components for Citi\'s Velocity e-trading platform.'
+                                    'A graduate from Binghamton University I worked in both the back-end and front-end for Citi for the last 3-4 years. The major applications I have worked on throughout that time were for the server and UI components for Citi\'s award winning Velocity e-trading platform.'
                                 ),
                                 _react2.default.createElement(
                                     'p',
                                     null,
-                                    'Currently I am helping my front end team add new features to our UI and transition our codebase to a more Javascript based stack. I have experience in object oriented programming, full stack development and functional programming.'
+                                    'Recently I started work as a software developer for ActiveViam in their professional services team. I actively help build products on top of our ActivePivot server to provide pratical and regulatory solutions for clients.'
                                 )
                             ),
                             _react2.default.createElement(
@@ -14656,7 +14656,9 @@ var AboutPage = function (_React$Component) {
                                 _react2.default.createElement(
                                     'p',
                                     null,
-                                    'I find the front-development world to be exciting, engaging and fun. Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. Continuing forward with my career I would like to develop more in this space.'
+                                    'I find the front-development world to be exciting, engaging and fun. Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. ',
+                                    _react2.default.createElement('br', null),
+                                    'Continuing forward with my career I would like to develop more in this space as full stack engineer.'
                                 ),
                                 _react2.default.createElement(
                                     'p',
