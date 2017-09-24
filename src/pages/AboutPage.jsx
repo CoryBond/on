@@ -54,7 +54,7 @@ export default class AboutPage extends React.Component {
                             <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">Goals</h3>
                             <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
                                 <p>
-                                    I find the front-development world to be exciting, engaging and fun. 
+                                    Though I have more experience with backend development, I find the front-development world to be exciting, engaging and fun. 
                                     Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. 
                                     The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. <br/>
                                     Continuing forward with my career I would like to develop more in this space as a full stack engineer.
