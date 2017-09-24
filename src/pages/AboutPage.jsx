@@ -57,7 +57,7 @@ export default class AboutPage extends React.Component {
                                     I find the front-development world to be exciting, engaging and fun. 
                                     Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. 
                                     The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. <br/>
-                                    Continuing forward with my career I would like to develop more in this space as full stack engineer.
+                                    Continuing forward with my career I would like to develop more in this space as a full stack engineer.
                                 </p>
                                 <p>
                                     I have found that even after graduating from college I learned a lot of technical and business related skills in the last 3 years of my past positions and feel as though I will continue this trend way out into my career.
