@@ -14658,7 +14658,7 @@ var AboutPage = function (_React$Component) {
                                     null,
                                     'I find the front-development world to be exciting, engaging and fun. Unlike in other development worlds, front-end technologies are constantly changing and shifting paradigms, which exposes you to many different concepts and technologies. The end result of all of this is a diverse work environment that creates stunning User Interfaces for clients. ',
                                     _react2.default.createElement('br', null),
-                                    'Continuing forward with my career I would like to develop more in this space as full stack engineer.'
+                                    'Continuing forward with my career I would like to develop more in this space as a full stack engineer.'
                                 ),
                                 _react2.default.createElement(
                                     'p',
