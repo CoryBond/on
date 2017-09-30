@@ -14839,7 +14839,7 @@ var ContactsPage = function (_React$Component) {
             // Email was not put in.
             if (!this.state.isEmailValid) return;
 
-            _smtp2.default.send("cb.cobond@gmail.com", "cb.cobond@gmail.com", "CoryBond.me - Mail", this.generateBody(), { token: "eaedd34c-346a-4b29-9c40-aeb3036f20a5" });
+            _smtp2.default.send("cory.bond.dev@gmail.com", "cb.cobond@gmail.com", "CoryBond.me - Mail", this.generateBody(), { token: "237807d0-013d-4391-85cd-796e9297e6ca" });
 
             //if(confirmation){
             this.handleShowSnackbar();

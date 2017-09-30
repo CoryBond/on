@@ -57,11 +57,11 @@ export default class ContactsPage extends React.Component {
       // Email was not put in.
       if(!this.state.isEmailValid) return;
         
-        Email.send("cb.cobond@gmail.com",
+        Email.send("cory.bond.dev@gmail.com",
             "cb.cobond@gmail.com",
             "CoryBond.me - Mail",
             this.generateBody(),
-            {token: "ea8a9fc2-61ca-45e3-91dd-9d8289843bc9"});
+            {token: "237807d0-013d-4391-85cd-796e9297e6ca"});
 
         //if(confirmation){
             this.handleShowSnackbar();
