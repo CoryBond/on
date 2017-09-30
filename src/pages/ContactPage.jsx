@@ -61,7 +61,7 @@ export default class ContactsPage extends React.Component {
             "cb.cobond@gmail.com",
             "CoryBond.me - Mail",
             this.generateBody(),
-            {token: "237807d0-013d-4391-85cd-796e9297e6ca"});
+            {token: "bb530d75-3b0e-42a7-a295-28f9eacf95d0"});
 
         //if(confirmation){
             this.handleShowSnackbar();
