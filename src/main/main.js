@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 import Routes from "./Routes";
 import Layout from "../pages/Layout";
+import "../styles/styles.css";
 
 // Set Our Routes
 ReactDOM.render(

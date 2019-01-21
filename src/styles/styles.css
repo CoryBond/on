@@ -163,18 +163,6 @@ html {
   padding-bottom: 0;
 }
 
-.portfolio-blog-card-full-bg {
-  background: url(../resources/images/example-blog03.jpg) center / cover;
-}
-
-.portfolio-blog-card-event-bg {
-  background: url(../resources/images/example-blog05.jpg) center / cover;
-}
-
-.portfolio-blog-card-strip-bg {
-  background: url(../resources/images/example-blog06.jpg) center / cover;
-}
-
 .mdl-card__title {
   padding-bottom: 0;
 }

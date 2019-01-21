@@ -1,5 +1,7 @@
 import React from "react";
-import * as loc from "../Js/Locations";
+import giphFindImage from "../resources/images/GiphFind.png";
+import mineSweeperThumbnail from "../resources/images/MineSweeper_Thumbnail.png";
+import infiniteScroll from "../resources/images/InfiniteScroll.png";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
@@ -20,11 +22,7 @@ const ProjectsPage = props => (
     <div className="mdl-grid portfolio-max-width">
       <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
         <div className="mdl-card__media">
-          <img
-            className="article-image"
-            src={`${loc.Images}GiphFind.png`}
-            alt=""
-          />
+          <img className="article-image" src={`${giphFindImage}`} alt="" />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">GiphFind</h2>
@@ -47,7 +45,7 @@ const ProjectsPage = props => (
         <div className="mdl-card__media">
           <img
             className="article-image"
-            src={`${loc.Images}MineSweeper_Thumbnail.png`}
+            src={`${mineSweeperThumbnail}`}
             alt=""
           />
         </div>
@@ -68,11 +66,7 @@ const ProjectsPage = props => (
       </div>
       <div className="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
         <div className="mdl-card__media">
-          <img
-            className="article-image"
-            src={`${loc.Images}InfiniteScroll.png`}
-            alt=""
-          />
+          <img className="article-image" src={`${infiniteScroll}`} alt="" />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">AutoComplete Infinite Scroll</h2>
