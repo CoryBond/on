@@ -8,7 +8,7 @@ import "../styles/styles.css";
 
 // Set Our Routes
 ReactDOM.render(
-  <Router basename="/">
+  <Router basename={process.env.PUBLIC_URL}>
     <Layout>
       <Routes />
     </Layout>
