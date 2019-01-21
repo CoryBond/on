@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/corybond.github.io/precache-manifest.9ff0137220e43b9e0c2c199f697a512c.js"
+  "/CoryBond.github.io/precache-manifest.829a060a8e7f595378bd615e9d3f41fd.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/corybond.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/CoryBond.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
