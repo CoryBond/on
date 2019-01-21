@@ -1,9 +1,6 @@
-var startingLocation = ".";
+const startingLocation = ".";
 
-var Images = startingLocation + "/src/resources/images/";
-var Particles = startingLocation + "/src/resources/particles/";
+const Images = `${startingLocation}/src/resources/images/`;
+const Particles = `${startingLocation}/src/resources/particles/`;
 
-export {
-    Images,
-    Particles
-};
+export { Images, Particles };

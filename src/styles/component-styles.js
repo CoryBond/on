@@ -1,85 +1,72 @@
-import { Link } from 'react-router-dom';
-import styled, { keyframes } from "styled-components"
+import { Link } from "react-router-dom";
+import styled from "styled-components";
 
-import Particles from 'react-particles-js';
-
-
-const rotate360 = keyframes`
-	0% {
-        color: transparent;
-	}
-
-	100% {
-		 color: radboats;
-	}
-`;
-//    //animation: ${rotate360} 2s linear infinite;
+import Particles from "react-particles-js";
 
 export const HeadBoardLink = styled(Link)`
-    &:hover {
-        -webkit-transition: all 0.5s;
-        position: relative;
-        font-weight: bold;
-        font-size: 120%;
-        color: #FAFAFA;
-        &::after {
-            -webkit-transition: all 0.5s;
-            transition: all 0.5s;
-            content: '';
-            width: 70%;
-            height: 2px;
-            display: block;
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            background-color: rgb(255,64,129);
-            left: 15%;
-        }
+  &:hover {
+    -webkit-transition: all 0.5s;
+    position: relative;
+    font-weight: bold;
+    font-size: 120%;
+    color: #fafafa;
+    &::after {
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      content: "";
+      width: 70%;
+      height: 2px;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: rgb(255, 64, 129);
+      left: 15%;
     }
-    color: #EEEEEE !important;
+  }
+  color: #eeeeee !important;
 `;
 
 export const ResumeFrame = styled.iframe`
-    width: 100%;
-    height: 1150px;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
+  width: 100%;
+  height: 1150px;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 `;
 
 export const ParticleStyle = styled(Particles)`
-    min-height: 100% !important;
+  min-height: 100% !important;
 `;
 
 export const ParticleBackground = styled.div`
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-`
-
-export const ParticleBackground_About = styled(ParticleBackground)`
-    background-color: #F5F5F5;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
 `;
 
-export const ParticleBackground_Experiences = styled(ParticleBackground)`
-    background-color: #F5F5F5;
+export const ParticleBackgroundAbout = styled(ParticleBackground)`
+  background-color: #f5f5f5;
 `;
 
-export const ParticleBackground_Projects = styled(ParticleBackground)`
-    background-color: #212121;
+export const ParticleBackgroundExperiences = styled(ParticleBackground)`
+  background-color: #f5f5f5;
 `;
 
-export const ParticleBackground_Resume = styled(ParticleBackground)`
-    background-color: #F5F5F5;
+export const ParticleBackgroundProjects = styled(ParticleBackground)`
+  background-color: #212121;
 `;
 
-export const ParticleBackground_Contact = styled(ParticleBackground)`
-    background-color: #F5F5F5;
+export const ParticleBackgroundResume = styled(ParticleBackground)`
+  background-color: #f5f5f5;
 `;
 
+export const ParticleBackgroundContact = styled(ParticleBackground)`
+  background-color: #f5f5f5;
+`;
 
 export const ShrinkingImage = styled.img`
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
 `;

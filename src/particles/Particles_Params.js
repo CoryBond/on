@@ -1,4 +1,4 @@
-const primary = "#E0E0E0";
+// const primary = "#E0E0E0";
 const secondary = "#212121";
 const third = "#757575";
 
@@ -106,10 +106,10 @@ export const experienceParticle = {
     }
   },
   retina_detect: true
-}
+};
 
 export const projectsParticle = {
-   particles: {
+  particles: {
     number: {
       value: 80,
       density: {
@@ -121,10 +121,10 @@ export const projectsParticle = {
       value: secondary
     },
     image: {
-        src: "img/github.svg",
-        width: 100,
-        height: 100
-      },
+      src: "img/github.svg",
+      width: 100,
+      height: 100
+    },
     shape: {
       type: "circle",
       stroke: {
@@ -222,7 +222,7 @@ export const projectsParticle = {
     }
   },
   retina_detect: true
-}
+};
 
 export const resumeParticle = {
   particles: {
@@ -333,10 +333,10 @@ export const resumeParticle = {
     }
   },
   retina_detect: true
-}
+};
 
 export const aboutParticle = {
-    particles: {
+  particles: {
     number: {
       value: 15,
       density: {
@@ -443,10 +443,10 @@ export const aboutParticle = {
     }
   },
   retina_detect: true
-}
+};
 
 export const contactParticle = {
-    particles: {
+  particles: {
     number: {
       value: 30,
       density: {
@@ -554,4 +554,4 @@ export const contactParticle = {
     }
   },
   retina_detect: true
-}
+};
