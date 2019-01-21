@@ -3,14 +3,15 @@
   "version": "2.0.0",
   "description": "My simple website",
   "author": "Cory Bond",
-  "homepage": "https://corybond.github.io/CoryBond",
+  "homepage": "https://corybond.github.io/",
   "license": "ISC",
   "scripts": {
     "format": "eslint --fix .",
     "format-check": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts --max-old-space-size=4096 build",
-    "gh-deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
