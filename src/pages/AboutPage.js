@@ -1,5 +1,6 @@
 import React from "react";
-import * as loc from "../Js/Locations";
+
+import meBanner from "../resources/images/me_banner.jpg";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
@@ -23,11 +24,7 @@ const AboutPage = params => (
           <h2 className="mdl-card__title-text">About</h2>
         </div>
         <div className="mdl-card__media">
-          <img
-            className="article-image"
-            src={`${loc.Images}me_banner.jpg`}
-            alt=""
-          />
+          <img className="article-image" src={`${meBanner}`} alt="" />
         </div>
         <div className="mdl-grid portfolio-copy">
           <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">

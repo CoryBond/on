@@ -1,5 +1,6 @@
 import React from "react";
-import * as loc from "../Js/Locations";
+import velocity from "../resources/images/velocity.jpg";
+import citibank from "../resources/images/citibank.gif";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
@@ -19,11 +20,7 @@ const ExperiencePage = params => (
     <div className="mdl-grid portfolio-max-width">
       <div className="mdl-cell mdl-card mdl-shadow--4dp experience-card">
         <div className="mdl-card__media">
-          <img
-            className="experience-image"
-            src={`${loc.Images}velocity.jpg`}
-            alt=""
-          />
+          <img className="experience-image" src={`${velocity}`} alt="" />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">Velocity UI Developer</h2>
@@ -49,11 +46,7 @@ const ExperiencePage = params => (
       </div>
       <div className="mdl-cell mdl-card mdl-shadow--4dp experience-card">
         <div className="mdl-card__media">
-          <img
-            className="experience-image"
-            src={`${loc.Images}velocity.jpg`}
-            alt=""
-          />
+          <img className="experience-image" src={`${velocity}`} alt="" />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">Citi Software Developer</h2>
@@ -81,11 +74,7 @@ const ExperiencePage = params => (
       </div>
       <div className="mdl-cell mdl-card mdl-shadow--4dp experience-card">
         <div className="mdl-card__media">
-          <img
-            className="experience-image"
-            src={`${loc.Images}citibank.gif`}
-            alt=""
-          />
+          <img className="experience-image" src={`${citibank}`} alt="" />
         </div>
         <div className="mdl-card__title">
           <h2 className="mdl-card__title-text">Citi Software Analyst</h2>
