@@ -1,6 +1,8 @@
 import React from "react";
-import * as s from "../styles/component-styles";
 
+import Resume from "../resources/currentResume/Resume.pdf";
+
+import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
 
 const ProjectsPage = () => (
@@ -16,8 +18,8 @@ const ProjectsPage = () => (
       }}
     />
     <div className="mdl-grid portfolio-max-width">
-      <div className="mdl-card experience-card">
-        <s.ResumeFrame src="https://www.corybond.me/resume.pdf" />
+      <div className="mdl-card experience-card" style={{ height: "1150px" }}>
+        <s.ResumeFrame src={`${Resume}`} />
       </div>
     </div>
   </s.ParticleBackgroundResume>

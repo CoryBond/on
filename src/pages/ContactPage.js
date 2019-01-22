@@ -1,6 +1,6 @@
 import React from "react";
 
-import vintageTelephone from "../resources/images/vintage_telephone.jpg";
+import internetWorld from "../resources/images/internetWorld.jpg";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
@@ -24,35 +24,22 @@ const ContactsPage = () => (
           <h2 className="mdl-card__title-text">Contact</h2>
         </div>
         <div className="mdl-card__media">
-          <img className="article-image" src={`${vintageTelephone}`} alt="" />
+          <img className="article-image" src={`${internetWorld}`} alt="" />
         </div>
         <div className="mdl-card__supporting-text">
           <br />
-          <p>
-            To quickly shoot me a message you may provide provide your name, a
-            contact email, and your message below. This will be sent to my email
-            directly. If you wish to contact me in another manner, or if your
-            message is a bit long, then you can contact via:
-          </p>
-          <br />
-          <div style={{ textAlign: "center" }}>
-            <span className="mdl-chip mdl-chip--contact">
-              <span className="mdl-chip__contact mdl-color--black mdl-color-text--white">
-                EM
-              </span>
-              <span className="mdl-chip__text">cb.cobond@gmail.com</span>
-            </span>
-            <span className="mdl-chip mdl-chip--contact">
-              <span className="mdl-chip__contact mdl-color--black mdl-color-text--white">
-                PH
-              </span>
-              <span className="mdl-chip__text">1-(845)-490-3907</span>
-            </span>
-          </div>
-          <br />
-          <br />
+          <p>If you wish to send me a message then you can contact me via:</p>
           <div className="mdl-card__actions mdl-card--border">
             <form action="#" className="" />
+          </div>
+          <div style={{ textAlign: "left" }}>
+            <div>
+              Email: <strong>cb.cobond@gmail.com</strong>
+            </div>
+            <br />
+            <div>
+              Phone: <strong>1-(845)-490-3907</strong>
+            </div>
           </div>
         </div>
       </div>

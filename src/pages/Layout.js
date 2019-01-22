@@ -24,9 +24,9 @@ const Layout = props => {
             </s.HeadBoardLink>
             <s.HeadBoardLink
               className="mdl-navigation__link phone-screen-text"
-              to="/Experience"
+              to="/Portfolio"
             >
-              Experience
+              Portfolio
             </s.HeadBoardLink>
             <s.HeadBoardLink
               className="mdl-navigation__link phone-screen-text"

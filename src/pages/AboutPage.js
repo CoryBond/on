@@ -47,17 +47,17 @@ const AboutPage = params => (
           </h3>
           <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
             <p>
-              A graduate from Binghamton University I worked in both the
-              back-end and front-end for Citi for the last 3-4 years. The major
-              applications I have worked on throughout that time were for the
-              server and UI components for Citis award winning Velocity
-              e-trading platform.
+              A graduate from Binghamton University I worked in both back-end
+              and front-end jobs for the last 6-7 years. In that time I
+              consulted for financial institutions, and developed software for
+              award winning plateforms such as Citi Velocity and ActivePivot.
             </p>
             <p>
-              Recently I started work as a software developer for ActiveViam in
-              their professional services team. I actively help build products
-              on top of our ActivePivot server to provide pratical and
-              regulatory solutions for clients.
+              Currently I work as a software developer for ActiveViam in their
+              professional services team. I actively help build products on top
+              of our ActivePivot engine to provide pratical and regulatory
+              solutions for clients. I consult, develop, support and soon will
+              lead various projects in the company.
             </p>
           </div>
           <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">
@@ -65,19 +65,18 @@ const AboutPage = params => (
           </h3>
           <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
             <p>
-              Though I have more experience with backend development, I find the
-              front-development world to be exciting, engaging and fun. Unlike
-              in other development worlds, front-end technologies are constantly
-              changing and shifting paradigms, which exposes you to many
-              different concepts and technologies. The end result of all of this
-              is a diverse work environment that creates stunning User
+              I find the front-development world to be exciting, engaging and
+              fun. Unlike in other development worlds, front-end technologies
+              are constantly changing and shifting paradigms, which exposes you
+              to many different concepts and technologies. The end result of all
+              of this is a diverse work environment that creates stunning User
               Interfaces for clients. <br />
               Continuing forward with my career I would like to develop more in
               this space as a full stack engineer.
             </p>
             <p>
               I have found that even after graduating from college I learned a
-              lot of technical and business related skills in the last 3 years
+              lot of technical and business related skills in the last 6 years
               of my past positions and feel as though I will continue this trend
               way out into my career.
             </p>
@@ -89,9 +88,8 @@ const AboutPage = params => (
             <p>
               On my free time I like to make coding projects to learn{" "}
               <strong>Single Page Applications</strong>,{" "}
-              <strong>Javascript/ES6/React</strong>, <strong>Python</strong>,{" "}
-              <strong>Web Development</strong> and general scripting. I host and
-              take care of my own website at my home.
+              <strong>Javascript/ES9/React</strong>, <strong>Python</strong>,{" "}
+              <strong>Web Development</strong> and general scripting.
             </p>
             <p>
               I both live and love NYC. Currently a Brooklynite I enjoy what the
@@ -100,7 +98,7 @@ const AboutPage = params => (
               NYC area for a long time.
             </p>
             <p>
-              I am board games hobbiest. If you never heard of{" "}
+              I am a board games hobbiest. If you never heard of{" "}
               <strong>Twilight Struggle</strong> then your missing out.
             </p>
           </div>
