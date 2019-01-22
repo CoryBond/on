@@ -13,3 +13,5 @@ Access to the raspberry pi server has been disconnected as I no longer have cont
 
 Because only the master branch can be used for github personal websites we have to deploy to that branch instead of gh-pages.
 In package.json you should see the script as : __"deploy": "gh-pages -d build -b master"__
+
+Always make sure after deploying you reconfigure the settings for the project as you might have to add a CNAME file that can be done on the github settings tab.
