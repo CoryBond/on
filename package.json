@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "My simple website",
   "author": "Cory Bond",
-  "homepage": "http://corybond.github.io/CoryBond.github.io",
+  "homepage": "http://corybond.github.io/on",
   "license": "ISC",
   "scripts": {
     "format": "eslint --fix .",
