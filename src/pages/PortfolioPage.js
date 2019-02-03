@@ -1,7 +1,7 @@
 import React from "react";
-import velocity from "../resources/images/velocity.jpg";
-import citibank from "../resources/images/citibank.gif";
-import lighthouse from "../resources/images/AVLighthouse.PNG";
+import velocity from "../res/images/velocity.jpg";
+import citibank from "../res/images/citibank.gif";
+import lighthouse from "../res/images/AVLighthouse.PNG";
 
 import OneColumnCard from "../components/OneColumnCard";
 

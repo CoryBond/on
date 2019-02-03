@@ -108,7 +108,7 @@ export const experienceParticle = {
   retina_detect: true
 };
 
-export const projectsParticle = {
+export const contactParticle = {
   particles: {
     number: {
       value: 80,
@@ -445,10 +445,10 @@ export const aboutParticle = {
   retina_detect: true
 };
 
-export const contactParticle = {
+export const projectsParticle = {
   particles: {
     number: {
-      value: 30,
+      value: 70,
       density: {
         enable: true,
         value_area: 1122.388442605866
@@ -483,7 +483,7 @@ export const contactParticle = {
       }
     },
     size: {
-      value: 2,
+      value: 4,
       random: true,
       anim: {
         enable: true,

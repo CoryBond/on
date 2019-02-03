@@ -1,6 +1,6 @@
 import React from "react";
 
-import Resume from "../resources/currentResume/Resume.pdf";
+import Resume from "../res/currentResume/Resume.pdf";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";

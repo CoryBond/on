@@ -1,6 +1,6 @@
 import React from "react";
 
-import internetWorld from "../resources/images/internetWorld.jpg";
+import internetWorld from "../res/images/internetWorld.jpg";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";

@@ -4,7 +4,7 @@ html {
 
 .portfolio-header {
   position: relative;
-  background-image: url(../resources/images/black_dot.jpg);
+  background-image: url(../res/images/black_dot.jpg);
 }
 
 .portfolio-header .mdl-layout__header-row {
@@ -76,7 +76,7 @@ html {
 }
 
 .portfolio-logo {
-  background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+  background: url(../res/images/Cory-Bond-Logo.png) 5% no-repeat;
   height: 150px;
   width: 150px;
   background-size: 100% 50px;
@@ -91,7 +91,7 @@ html {
 
 @media screen and (min-width: 300px) {
   .portfolio-logo {
-    background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+    background: url(../res/images/Cory-Bond-Logo.png) 5% no-repeat;
     height: 150px;
     width: 250px;
     background-size: 100% 50%;
@@ -107,7 +107,7 @@ html {
 
 @media screen and (min-width: 780px) {
   .portfolio-logo {
-    background: url(../resources/images/Cory-Bond-Logo.png) 5% no-repeat;
+    background: url(../res/images/Cory-Bond-Logo.png) 5% no-repeat;
     height: 150px;
     width: 450px;
   }

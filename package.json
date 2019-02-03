@@ -1,16 +1,15 @@
 {
-  "name": "Cory_Bond_Website",
   "version": "2.0.0",
   "description": "My simple website",
   "author": "Cory Bond",
-  "homepage": "http://corybond.github.io/on",
+  "homepage": "https://corybond.me",
   "license": "ISC",
   "scripts": {
     "format": "eslint --fix .",
     "format-check": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts --max-old-space-size=4096 build",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build & ncp ./public/CNAME ./build/CNAME & ncp ./README.md ./build/README.md",
     "deploy": "gh-pages -d build -b master",
     "eject": "react-scripts eject"
   },
@@ -28,7 +27,8 @@
     "eslint-plugin-prettier": "3.0.x",
     "eslint-plugin-jsx-a11y": "6.1.x",
     "eslint-config-airbnb": "17.1.x",
-    "eslint-plugin-flowtype": "2.x"
+    "eslint-plugin-flowtype": "2.x",
+    "ncp": "^2.0.0"
   },
   "dependencies": {
     "material-components-web": "^0.43.0",

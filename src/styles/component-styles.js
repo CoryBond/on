@@ -54,7 +54,7 @@ export const ParticleBackgroundExperiences = styled(ParticleBackground)`
 `;
 
 export const ParticleBackgroundProjects = styled(ParticleBackground)`
-  background-color: #212121;
+  background-color: #f5f5f5;
 `;
 
 export const ParticleBackgroundResume = styled(ParticleBackground)`

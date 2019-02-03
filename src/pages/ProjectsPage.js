@@ -1,7 +1,7 @@
 import React from "react";
-import giphFindImage from "../resources/images/GiphFind.png";
-import mineSweeperThumbnail from "../resources/images/MineSweeper_Thumbnail.png";
-import infiniteScroll from "../resources/images/InfiniteScroll.png";
+import giphFindImage from "../res/images/GiphFind.png";
+import mineSweeperThumbnail from "../res/images/MineSweeper_Thumbnail.png";
+import infiniteScroll from "../res/images/InfiniteScroll.png";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";

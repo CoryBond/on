@@ -1,6 +1,6 @@
 import React from "react";
 
-import meBanner from "../resources/images/me_banner.jpg";
+import meBanner from "../res/images/me_banner.jpg";
 
 import * as s from "../styles/component-styles";
 import * as pStyle from "../particles/Particles_Params";
