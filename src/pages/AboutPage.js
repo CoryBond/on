@@ -54,8 +54,8 @@ const AboutPage = params => (
             </p>
             <p>
               Currently I work as a software developer for ActiveViam in their
-              professional services team. I actively help build products on top
-              of our ActivePivot engine to provide pratical and regulatory
+              customer services team. I actively help build products on top of
+              our ActivePivot engine to provide pratical and regulatory
               solutions for clients. I consult, develop, support and soon will
               lead various projects in the company.
             </p>
