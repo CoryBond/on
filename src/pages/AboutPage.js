@@ -32,13 +32,15 @@ const AboutPage = params => (
           </h3>
           <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
             <p>
-              I am a determined software engineer looking to make an impact for
-              my clients and teammates.
+              I am a motivated and flexible developer with 7+ years of
+              experience who loves coding, new technology and working with
+              nerds.
               <br />
-              I love coding, technology and working with people.
+              Currently in my career I am striving to be a good leader and take
+              on additional responsibility.
               <br />
-              With my experience and skills I think I would make a valuable
-              member of any company.
+              As a driven programmer I think I would make a valuable member of
+              any company.
               <br />
             </p>
           </div>
@@ -48,16 +50,16 @@ const AboutPage = params => (
           <div className="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding ">
             <p>
               A graduate from Binghamton University I worked in both back-end
-              and front-end jobs for the last 6-7 years. In that time I
+              and front-end jobs for the last 7-8 years. In that time I
               consulted for financial institutions, and developed software for
-              award winning plateforms such as Citi Velocity and ActivePivot.
+              award winning platforms such as Citi Velocity and ActivePivot.
             </p>
             <p>
               Currently I work as a software developer for ActiveViam in their
               customer services team. I actively help build products on top of
               our ActivePivot engine to provide pratical and regulatory
-              solutions for clients. I consult, develop, support and soon will
-              lead various projects in the company.
+              solutions for clients. I consult, develop, support and lead
+              various projects in the company.
             </p>
           </div>
           <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">
@@ -75,10 +77,9 @@ const AboutPage = params => (
               this space as a full stack engineer.
             </p>
             <p>
-              I have found that even after graduating from college I learned a
-              lot of technical and business related skills in the last 6 years
-              of my past positions and feel as though I will continue this trend
-              way out into my career.
+              I have found that even after 7 years of experience I am still
+              learning and I feel I will continue this trend way out into my
+              career.
             </p>
           </div>
           <h3 className="mdl-cell mdl-cell--12-col mdl-typography--headline">
@@ -88,14 +89,16 @@ const AboutPage = params => (
             <p>
               On my free time I like to make coding projects to learn{" "}
               <strong>Single Page Applications</strong>,{" "}
-              <strong>Javascript/ES9/React</strong>, <strong>Python</strong>,{" "}
+              <strong>Javascript/React</strong>, <strong>Python/Pandas</strong>,{" "}
               <strong>Web Development</strong> and general scripting.
             </p>
             <p>
-              I both live and love NYC. Currently a Brooklynite I enjoy what the
-              city has to offer like opera, exhibits, theater, restaurants,
-              history, and more. As far as I can see I will be living around the
-              NYC area for a long time.
+              Before Covid became a daily reality of ours I use to travel a lot
+              and explore the city. In particular I love going to museums, the
+              opera, theater, resturuants, etc. It is a bit sad now with the
+              city being so dead. As I write this Thanksgiving just passed by
+              and, though we may not meet in person this year, I suppose I am
+              most thankful that my family is safe and healthy.
             </p>
             <p>
               I am a board games hobbiest. If you never heard of{" "}

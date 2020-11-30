@@ -19,7 +19,7 @@ const ProjectsPage = () => (
     />
     <div className="mdl-grid portfolio-max-width">
       <div className="mdl-card experience-card" style={{ height: "1150px" }}>
-        <s.ResumeFrame src={`${Resume}`} />
+        <s.ResumeFrame scrolling="no" src={`${Resume}`} />
       </div>
     </div>
   </s.ParticleBackgroundResume>
